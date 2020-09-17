@@ -41,7 +41,7 @@ def load_data(file: Path) -> T.Dict[str, pandas.DataFrame]:
     }
 
     return data
-
+    data
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description="load and analyse IoT JSON data")
